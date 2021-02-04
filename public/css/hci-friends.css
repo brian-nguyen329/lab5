@@ -10,5 +10,12 @@
 }
 
 h1, h2, h3, h4, h5 {
-	color: #8382BF;
+	color: #3230c5;
 }
+
+div {
+	max-width: 300px;
+}
+
+
+
