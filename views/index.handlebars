@@ -16,13 +16,13 @@
 <body>
 	<div class="container">
 	<h1>My HCI Friends</h1>
-	<div>
+	{{!-- <div>
 		<img src="https://loremflickr.com/320/360/drawing,boy/all" style="max-width: 280px"; alt="Fake friend"/>
 		<h3>Fake friend</h3>
 		<label for="description">All my friends are imaginary.</label>
-	</div>
+	</div> --}}
 	{{#each friends}}
-      <div >
+      <div class="resize">
           <img src="{{imageURL}}" class="img-responsive" class="img-rounded" />
 			  	<h3> 
 				  <a href="#" class="friend">{{name}}</a>
